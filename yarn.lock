@@ -1121,6 +1121,13 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@react-native-community/push-notification-ios@^1.2.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/push-notification-ios/-/push-notification-ios-1.8.0.tgz#7d43cb37b9e644ff3069aafa91befe71688a2dc4"
+  integrity sha512-vxvkeampafjmtDoQBN8Q4azP21l6cMX93+OQZemyIWZmG++OjCVDQVitobf/kWLm5zyGwdylejbpMGo75qo7rA==
+  dependencies:
+    invariant "^2.2.4"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.0.tgz#c8d68821a854c555bba172f3b06959a0039b236d"
@@ -5500,10 +5507,17 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native@0.62.2:
-  version "0.62.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
-  integrity sha512-gADZZ3jcm2WFTjh8CCBCbl5wRSbdxqZGd+8UpNwLQFgrkp/uHorwAhLNqcd4+fHmADgPBltNL0uR1Vhv47zcOw==
+react-native-push-notification@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification/-/react-native-push-notification-3.5.2.tgz#5f6226d12a00c25c15279325b57c5fbddd5b1c82"
+  integrity sha512-eh9l7WeL7Lxq17ntsafCrNQF6aW8XS6b7PG/s1Y8amAqpDt8GJ8hz125z566N1jsj3PDh9pfd4SjNS+tLaV47A==
+  dependencies:
+    "@react-native-community/push-notification-ios" "^1.2.0"
+
+react-native@0.62.3:
+  version "0.62.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.3.tgz#9a2e96af3dedd0723c8657831eec4ed3c30f3299"
+  integrity sha512-b2/hDHDlO5Of2Zn1K5ZgvzOoUrvMEvlYU4miS9rcEBp5jK/9cRQn81HZ7NBmf4gzigGl8CxbSx1l10GUj1k8XQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^4.5.1"
